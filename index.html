@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="styles.css" rel="stylesheet">
+    <title>Rock,Paper, Scissors</title>
+
+</head>
+<body>
+ 
+    
+    <div class="main">
+        ROCK, PAPER, SCISSORS
+    </div>
+
+    <section>
+    <div class="scoreboard">
+        <p class="pscore">Your score: 0</p> 
+        <p class="cscore">Computer score: 0</p> 
+    </div>
+    
+    
+
+    <div class="icons">
+        <div class="playerbox">
+        
+        <div class="playericons">
+            <button class="rock"><img src="images/player-rock.png"></button>
+            <button class="paper"><img src="images/player-paper.png"></button>
+            <button class="scissors"><img src="images/player-scissors.png"></button>
+        </div>
+        
+    </div>
+    
+    <div class="middlesection">
+        <div class="firstto5">First to 5 wins</div>
+        <div class="gameresults">Choose <br> your <br> weapon</div>
+        <img class="arrow" src="images/left-arrow-1487_128.gif">
+        <div class="addone"></div>
+    </div>
+    
+        <div class="computericons">
+            <button class="computer-rock" disabled><img src="images/rock.png"></button>
+            <button class="computer-paper" disabled><img src="images/paper.png"></button>
+            <button class="computer-scissors" disabled><img src="images/scissors.png"></button>
+        </div>
+    </div>
+</section>
+
+    <audio id="rockwins" src="audio/rockwins.mp3"></audio>
+    <audio id="paperwins" src="audio/paperwins.mp3"></audio>
+    <audio id="scissorswin" src="audio/scissorswin.mp3"></audio>
+    <audio id="tie" src="audio/tie.mp3"></audio>
+    <audio id="youlose" src="audio/lost.mp3"></audio>
+    <audio id="youwin" src="audio/cheer.mp3"></audio>
+    <audio id="youlose" src="audio/lost.mp3"></audio>
+
+
+    <div class="declarewinner">
+        <p class="declaretext"></p>
+        <button class="playagain">Play again</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

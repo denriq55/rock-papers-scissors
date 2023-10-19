@@ -1,0 +1,110 @@
+@font-face {
+font-family: Chlorinap; 
+src: url(chlorinap-font/Chlorinap-eZ9x.ttf);
+}
+
+
+
+body {
+    margin-top: 100px;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-family: Chlorinap;
+    background-size: contain;
+   
+   
+    
+}
+
+.main {
+    font-size: 60px;
+    color: black;
+   
+}
+
+.firstto5 {
+    align-self: flex-end;
+    
+}
+
+.scoreboard {
+    display: flex;
+    justify-content: center;
+    gap: 250px;
+    font-size: 30px;
+
+    
+   
+}
+
+.addone {
+    font-size: 15px;
+    margin: 0;
+   
+}
+
+.declarewinner {
+    font-size: 25px;
+    border-radius: 5%;
+    border: 3px solid black;
+    width: 400px;
+    height: 70px;
+    position: absolute;
+    left: 36%;
+    top: 40%;
+    display: none;
+   
+}
+
+.declaretext {
+    margin: 0;
+}
+
+.gameresults {
+    font-size: 30px;
+}
+
+.playerbox {
+    display:flex;
+    gap: 40px;
+    
+}
+
+.choose {
+    align-self: center;
+    line-height: 2em;
+    font-size: 30px;
+}
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 50px;
+  
+   
+    
+    
+}
+
+.playagain {
+    font-family: Chlorinap;
+    font-size: 18px;
+    margin-left: 36%;
+    margin-top: 10px;
+ 
+}
+
+
+
+button {
+    display: flex;
+    flex-direction: row;
+    
+}
+img {
+   
+    gap: 300px;
+    height: 80px;
+    width: 100px;
+}
+
